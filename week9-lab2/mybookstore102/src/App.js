@@ -23,7 +23,7 @@ function App() {
       <Routes>
         {/* Admin Routes - No Navbar/Footer */}
         <Route path="/login" element={<LoginPage />} />
-        {/* <Route path="/store-manager/add-book" element={<AddBookPage />} /> */}
+        <Route path="/store-manager/add-book" element={<AddBookPage />} />
         <Route path="/store-manager/listbook" element={<ListBookPage />} />
 
 
